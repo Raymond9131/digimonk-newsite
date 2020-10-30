@@ -9,7 +9,13 @@ MDBIcon, MDBMask, MDBView, MDBCard, MDBCardBody    } from "mdbreact";
 import { Link } from 'react-router-dom';
 
 export default class Home extends Component {
+
+
+
+
+  
     render() {
+      
         return (
             <div>
                 <Navbar />
@@ -65,7 +71,7 @@ export default class Home extends Component {
 </div>
 </MDBCol>
 
-<MDBCol md="5">
+<MDBCol md="8">
 <MDBAnimation reveal type="fadeInLeft">
 <div className="sponser">
 <span>Our Customers Consider Us to be their Number One Choice</span>
@@ -83,9 +89,14 @@ A Worldwide Web and Mobile App Development Company.
 </div>
 </MDBAnimation>
 </MDBCol>
+{/*
 <MDBCol md="7">
 <MDBAnimation reveal type="fadeInRight">
+
+
+
 <div className="client-logo">
+
 <ul>
   <li><div><img src={require('../images/sponsors-logo-01.svg')}/></div></li>
   <li><div><img src={require('../images/sponsors-logo-02.svg')}/></div></li>
@@ -99,12 +110,14 @@ A Worldwide Web and Mobile App Development Company.
 
 </div>
 </MDBAnimation>
-</MDBCol>
+</MDBCol>*/}
 
 </MDBRow>
 
 </MDBContainer>
-
+<div class="bubble-wrap">
+  <div class="bubbles"></div>
+</div>
 </div>
 
 <div className="recentbox">

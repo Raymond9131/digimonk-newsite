@@ -28,7 +28,7 @@ render() {
             <div className="collapse navbar-collapse destop" id="navbarNavDropdown">
                 <ul className="navbar-nav ml-auto">
                   <li className="nav-item">
-                    <Link to="/" className="nav-link">Home</Link>
+                    <a href="/" className="nav-link">Home</a>
                   </li>
                   <li className="nav-item">
                     <Link to="/about" className="nav-link">About Us</Link>
