@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
-import { MDBCol, MDBContainer, MDBRow,  MDBAnimation, MDBCard, MDBCardBody } from 'mdbreact'
+import { MDBCol, MDBContainer, MDBRow,  MDBAnimation, MDBCard, MDBCardBody, Link, MDBIcon } from 'mdbreact'
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+
+
 
 export default class Career extends Component {
     render() {
@@ -84,13 +86,45 @@ export default class Career extends Component {
     <MDBAnimation reveal type="fadeInUp">
 <h2 className="text-center mb-5">Open Positions</h2> 
 </MDBAnimation>
+
         <MDBRow>
+<MDBCol md="12"><h4 className="CatName is-h6 is-color-red">DEVELOPMENT</h4></MDBCol>
+        <MDBCol md="6">
+
+<div className="fullstack">
+<div className="Category">
+                   
+<MDBAnimation type="fadeInUp">
+                   
+                       <div className="post-Position">
+                           <div className="Info">
+                               <h5 className="JobTitle">
+                               React Native Developer
+                               </h5>
+                               <p className="JobLocation">
+                               <MDBIcon far icon="calendar-check" />
+                                1-5 Years
+                               </p>
+                               <p className="JobLocation">
+                                            <MDBIcon icon="map-marker-alt" />
+                                            Gwalior
+                                            </p>
+                           </div>
+                           <Link to="/career-details" class="Link is-link">Apply</Link>
+                       </div>
+                       </MDBAnimation>
+                       
+               </div>
+</div>
+
+</MDBCol>
+
             <MDBCol md="6">
 
              <div className="fullstack">
              <div className="Category">
-                                <h4 className="CatName is-h6 is-color-red">DEVELOPMENT</h4>
-
+                              
+             <MDBAnimation type="fadeInUp">
                                 
                                     <div className="post-Position">
                                         <div className="Info">
@@ -98,20 +132,213 @@ export default class Career extends Component {
 
                                             AWS Certified Professional
                                             </h5>
-                                            <h5 className="JobLocation is-text-meta">
-
+                                            <p className="JobLocation">
+                                            <MDBIcon far icon="calendar-check" />
                                             1-5 Years
-                                            </h5>
+                                            </p>
+                                            <p className="JobLocation">
+                                            <MDBIcon icon="map-marker-alt" />
+                                            Gwalior
+                                            </p>
                                         </div>
-                                        <a href="#" class="Link is-link">Apply</a>
+                                        <Link to="/career-details" class="Link is-link">Apply</Link>
                                     </div>
-
+</MDBAnimation>
                                     
                             </div>
              </div>
 
             </MDBCol>
+
+            <MDBCol md="6">
+
+<div className="fullstack">
+<div className="Category">
+                 
+<MDBAnimation type="fadeInUp">
+                   
+                       <div className="post-Position">
+                           <div className="Info">
+                               <h5 className="JobTitle">
+
+                               Python Developer (Django)
+                               </h5>
+                               <p className="JobLocation">
+                               <MDBIcon far icon="calendar-check" />
+                               1-5 Years
+                               </p>
+                               <p className="JobLocation">
+                               <MDBIcon icon="map-marker-alt" />
+                               Gwalior
+                               </p>
+                           </div>
+                           <Link to="/career-details" class="Link is-link">Apply</Link>
+                       </div>
+</MDBAnimation>
+                       
+               </div>
+</div>
+
+</MDBCol>
+
+<MDBCol md="6">
+
+<div className="fullstack">
+<div className="Category">
+                 
+
+<MDBAnimation type="fadeInUp">
+                       <div className="post-Position">
+                           <div className="Info">
+                               <h5 className="JobTitle">
+
+                               Digital Marketing Executive
+                               </h5>
+                               <p className="JobLocation">
+                               <MDBIcon far icon="calendar-check" />
+                               0-3 Years
+                               </p>
+                               <p className="JobLocation">
+                               <MDBIcon icon="map-marker-alt" />
+                               Gwalior
+                               </p>
+                           </div>
+                           <Link to="/career-details" class="Link is-link">Apply</Link>
+                       </div>
+</MDBAnimation>
+                       
+               </div>
+</div>
+
+</MDBCol>
+
+<MDBCol md="6">
+
+<div className="fullstack">
+<div className="Category">
+                 
+
+<MDBAnimation type="fadeInUp">
+                       <div className="post-Position">
+                           <div className="Info">
+                               <h5 className="JobTitle">
+
+                               Internship / Fresher
+                               </h5>
+                               <p className="JobLocation">
+                               <MDBIcon far icon="calendar-check" />
+                               1-4 Years
+                               </p>
+                               <p className="JobLocation">
+                               <MDBIcon icon="map-marker-alt" />
+                               Gwalior
+                               </p>
+                           </div>
+                           <Link to="/career-details" class="Link is-link">Apply</Link>
+                       </div>
+</MDBAnimation>
+                       
+               </div>
+</div>
+
+</MDBCol>
+
+<MDBCol md="6">
+
+<div className="fullstack">
+<div className="Category">
+                 
+
+<MDBAnimation type="fadeInUp">
+                       <div className="post-Position">
+                           <div className="Info">
+                               <h5 className="JobTitle">
+
+                               Graphics Designer
+                               </h5>
+                               <p className="JobLocation">
+                               <MDBIcon far icon="calendar-check" />
+                               1-4 Years
+                               </p>
+                               <p className="JobLocation">
+                               <MDBIcon icon="map-marker-alt" />
+                               Gwalior
+                               </p>
+                           </div>
+                           <Link to="/career-details" class="Link is-link">Apply</Link>
+                       </div>
+
+                     </MDBAnimation>  
+               </div>
+</div>
+
+</MDBCol>
+
+
+<MDBCol md="6">
+
+<div className="fullstack">
+<div className="Category">
+                 
+<MDBAnimation type="fadeInUp">
+                   
+                       <div className="post-Position">
+                           <div className="Info">
+                               <h5 className="JobTitle">
+
+                               IOS Developer
+                               </h5>
+                               <p className="JobLocation">
+                               <MDBIcon far icon="calendar-check" />
+                               2-5 Years
+                               </p>
+                               <p className="JobLocation">
+                               <MDBIcon icon="map-marker-alt" />
+                               Gwalior
+                               </p>
+                           </div>
+                           <Link to="/career-details" class="Link is-link">Apply</Link>
+                       </div>
+
+                      </MDBAnimation> 
+               </div>
+</div>
+
+</MDBCol>
+
+<MDBCol md="6">
+
+<div className="fullstack">
+<div className="Category">
+                 
+
+<MDBAnimation type="fadeInUp">
+                       <div className="post-Position">
+                           <div className="Info">
+                               <h5 className="JobTitle">
+
+                               Android Developer
+                               </h5>
+                               <p className="JobLocation">
+                               <MDBIcon far icon="calendar-check" />
+                               1-4 Years
+                               </p>
+                               <p className="JobLocation">
+                               <MDBIcon icon="map-marker-alt" />
+                               Gwalior
+                               </p>
+                           </div>
+                           <Link to="/career-details" class="Link is-link">Apply</Link>
+                       </div>
+</MDBAnimation>
+               </div>
+</div>
+
+</MDBCol>
+
+
         </MDBRow>
+       
     </MDBContainer>
 </div>
 

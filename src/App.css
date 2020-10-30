@@ -1136,15 +1136,109 @@ a.mm-navbar__title {
 }
 
 .post-Position {
-  border-top: 1px solid #ccc;
-  padding: 1.5rem 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  border: 1px solid #ccc;
+  padding: 1.5rem;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: end;
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
+}
+
+.JobLocation {
+  margin-bottom: 3px;
+}
+
+.JobLocation i {
+  margin-right: 5px;
+}
+
+ul.socials-car {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul.socials-car li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+ul.socials-car li h3 {
+  font-weight: 300;
+  margin: 0px 15px 0px;
+}
+
+.share-icon a {
+  display: inline-block;
+  margin: 0px 10px;
+  font-size: 32px;
+  color: #ccc;
+}
+
+.share-icon a:hover {
+  color: #f0506e;
+}
+
+.share-career {
+  padding-bottom: 1.5rem;
+}
+
+.job-requirement ul {
+  margin: 0px;
+  padding: 0px 0px 1rem;
+  list-style: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.job-requirement ul li {
+  display: inline-block;
+  padding: 5px 15px 5px 15px;
+  border-right: 1px solid #ccc;
+}
+
+.job-requirement ul li i {
+  margin-right: 15px;
+}
+
+.job-requirement ul li:first-child {
+  padding-left: 0px;
+}
+.job-requirement ul li:last-child {
+  border-right: 0px;
+}
+
+.developer {
+  padding: 3rem 0rem;
+}
+.career-detail-text h3 {
+  margin-bottom: 2rem;
+}
+
+.job-requirement {
+  margin-bottom: 1.5rem;
+}
+ul {
+  font-size: 1.3rem;
+  line-height: 1.66;
+  font-weight: 300;
+}
+.career-text ul {
+  margin: 0px;
+}
+.career-text ul li {
+  padding: 0.2rem 0px;
+}
+
+.career-text h4 {
+  margin: 1rem 0px;
+}
+
+.career-text h5 {
+  margin: 1rem 2rem;
+}
+
+.career4-detail-form {
+  padding: 2rem 0px;
+  background: #f6f4f4;
 }

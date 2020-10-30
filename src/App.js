@@ -17,6 +17,7 @@ import Paynow from './compoment/Paynow';
 import Gallery from './compoment/Gallery';
 import Android from './compoment/Android';
 import Career from './compoment/Career';
+import CareerDetails from './compoment/CareerDetails';
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
                 <Route exact path="/Gallery" component={Gallery} />
                 <Route exact path="/android-application" component={Android} />
                 <Route exact path="/career" component={Career} />
+                <Route exact path="/career-details" component={CareerDetails} />
                 
                 
 
